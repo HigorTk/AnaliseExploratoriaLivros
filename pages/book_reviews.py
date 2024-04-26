@@ -1,8 +1,11 @@
+# Importando bibliotécas
 import streamlit as st
 import pandas as pd
 
+# Ajuste de Layout
 st.set_page_config(layout="wide")
 
+# Importando dataset
 df_reviews = pd.read_csv("datasets/customer reviews.csv")
 df_top100_books = pd.read_csv("datasets/Top-100 Trending Books.csv")
 
